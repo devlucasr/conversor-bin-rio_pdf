@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Converter Base64 para PDF</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="converterBase64ParaPdf.js"></script>
+    <Script src="lendoJson.js"></Script>
+
+    <script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Escolha uma das opções abaixo.</h1>
+       
+        <div class="container-1">
+            <p>1- Converter string base64 para PDF.</p>
+            <input type="text" id="entradaBase64" placeholder="Cole a string Base64 do PDF">
+            <button onclick="converterBase64ParaPdf()">Converter de base64 para PDF</button>
+        </div>
+
+        <div class="container-2">
+            <p>2- Realizar upload do JSON retornado, na rota Obter PDF https://app.plugstorage.com.br/api/v2/invoices/export</p>
+            <input type="file" id="entradaJson">
+            <button onclick="lendoJson()">Ler arquivo JSON </button>
+        </div>
+    </div>
+</body>
+
+</html>
