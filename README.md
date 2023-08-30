@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Conversor de binário de PDF em arquivo #
+=======
+# Conversor de string binária do PDF em arquivo PDF#
+>>>>>>> 370a2392812eca09302942bc958bf0edb150b3f2
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN)
 
@@ -27,8 +31,3 @@ Diretórios
 ├── lendoJson.js
 ├── index.html
 ```
-## Roadmap
-
-* Autenticação
-* Tratamento de erros
-* Validações
