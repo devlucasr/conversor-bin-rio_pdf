@@ -29,4 +29,3 @@ Diretórios
 ├── lendoJson.js
 ├── index.html
 ```
-:)
